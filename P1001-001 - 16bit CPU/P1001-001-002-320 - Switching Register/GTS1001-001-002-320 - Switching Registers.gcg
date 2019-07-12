@@ -6,7 +6,7 @@
         <Point X="216" Y="35.199999999999989" Angle="0" />
       </Gate>
       <Gate Type="UserInput" Name="UserInput" ID="2">
-        <Point X="216.8" Y="68" Angle="0" />
+        <Point X="216.8" Y="68.8" Angle="0" />
       </Gate>
       <Gate Type="UserInput" Name="UserInput" ID="3">
         <Point X="216" Y="99.200000000000017" Angle="0" />

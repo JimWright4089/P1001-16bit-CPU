@@ -3723,6 +3723,7 @@ Source: www.kingbright.com</description>
 <part name="B_OUT2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="A_OUT2" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP4E" device="" package3d_urn="urn:adsk.eagle:package:15463/1"/>
 <part name="RAM_PC_OUT" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="JP1E" device="" package3d_urn="urn:adsk.eagle:package:15455/1"/>
+<part name="SV1" library="con-harting-ml" library_urn="urn:adsk.eagle:library:149" deviceset="ML16" device="" package3d_urn="urn:adsk.eagle:package:6969/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5504,6 +5505,84 @@ Source: www.kingbright.com</description>
 <pinref part="HALT" gate="G$1" pin="A"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="121.92" x2="63.5" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="SV1" gate="1" x="22.86" y="71.12" smashed="yes">
+<attribute name="VALUE" x="19.05" y="55.88" size="1.778" layer="96"/>
+<attribute name="NAME" x="19.05" y="82.042" size="1.778" layer="95"/>
+</instance>
+</instances>
+<busses>
+<bus name="IR[8..15]">
+<segment>
+<wire x1="5.08" y1="58.42" x2="5.08" y2="91.44" width="0.762" layer="92"/>
+<wire x1="5.08" y1="91.44" x2="40.64" y2="91.44" width="0.762" layer="92"/>
+<wire x1="40.64" y1="91.44" x2="40.64" y2="5.08" width="0.762" layer="92"/>
+<label x="10.16" y="91.44" size="1.778" layer="95"/>
+</segment>
+</bus>
+</busses>
+<nets>
+<net name="IR15" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="16"/>
+<wire x1="15.24" y1="78.74" x2="5.08" y2="78.74" width="0.1524" layer="91"/>
+<label x="7.62" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR13" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="14"/>
+<wire x1="15.24" y1="76.2" x2="5.08" y2="76.2" width="0.1524" layer="91"/>
+<label x="7.62" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR11" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="12"/>
+<wire x1="15.24" y1="73.66" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
+<label x="7.62" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR9" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="10"/>
+<wire x1="15.24" y1="71.12" x2="5.08" y2="71.12" width="0.1524" layer="91"/>
+<label x="7.62" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR14" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="15"/>
+<wire x1="30.48" y1="78.74" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
+<label x="33.02" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR12" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="13"/>
+<wire x1="30.48" y1="76.2" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+<label x="33.02" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR10" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="11"/>
+<wire x1="30.48" y1="73.66" x2="40.64" y2="73.66" width="0.1524" layer="91"/>
+<label x="33.02" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="IR8" class="0">
+<segment>
+<pinref part="SV1" gate="1" pin="9"/>
+<wire x1="30.48" y1="71.12" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
+<label x="33.02" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -2141,11 +2141,6 @@ Source: http://www.sst.com/dotAsset/40687.pdf</description>
 </net>
 <net name="VDD" class="0">
 <segment>
-<pinref part="JP1" gate="B" pin="5"/>
-<wire x1="81.28" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
-<label x="83.82" y="71.12" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
 <wire x1="167.64" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <label x="154.94" y="12.7" size="1.778" layer="95"/>
@@ -2233,6 +2228,13 @@ Source: http://www.sst.com/dotAsset/40687.pdf</description>
 <pinref part="U$3" gate="G$1" pin="!WE"/>
 <wire x1="383.54" y1="22.86" x2="398.78" y2="22.86" width="0.1524" layer="91"/>
 <label x="386.08" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="JP1" gate="B" pin="5"/>
+<wire x1="81.28" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<label x="83.82" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

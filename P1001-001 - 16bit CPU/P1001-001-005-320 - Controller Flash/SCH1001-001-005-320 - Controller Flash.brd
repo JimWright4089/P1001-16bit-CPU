@@ -2354,7 +2354,6 @@ design rules under a new name.</description>
 <via x="68.875" y="10.375" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VDD">
-<contactref element="JP1" pad="5"/>
 <contactref element="U$1" pad="37"/>
 <contactref element="U$1" pad="26"/>
 <contactref element="U$2" pad="37"/>
@@ -2373,7 +2372,6 @@ design rules under a new name.</description>
 <wire x1="11.875" y1="16.875" x2="25.125" y2="16.875" width="0.1524" layer="1"/>
 <wire x1="5.125" y1="10.125" x2="11.875" y2="16.875" width="0.1524" layer="1"/>
 <wire x1="5.125" y1="6.5" x2="5.125" y2="10.125" width="0.1524" layer="1"/>
-<wire x1="26.25" y1="24.125" x2="26.35" y2="24.19" width="0.1524" layer="16"/>
 <wire x1="60.75" y1="9.75" x2="59.625" y2="9.75" width="0.1524" layer="1"/>
 <wire x1="60.75" y1="14.75" x2="60.75" y2="9.75" width="0.1524" layer="16"/>
 <wire x1="60.25" y1="15.25" x2="60.75" y2="14.75" width="0.1524" layer="1"/>
@@ -2536,6 +2534,9 @@ design rules under a new name.</description>
 <wire x1="21.375" y1="24.125" x2="21.375" y2="15" width="0.1524" layer="16"/>
 <wire x1="21.375" y1="24.125" x2="21.27" y2="24.19" width="0.1524" layer="16"/>
 <via x="76.75" y="2" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="GND">
+<contactref element="JP1" pad="5"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

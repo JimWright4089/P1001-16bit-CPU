@@ -1,0 +1,20 @@
+Partlist exported from F:/JimsDesign/P1001-16bit-CPU/P1001-001 - 16bit CPU/P1001-001-007-320 - Programmer/P1001-001-007-320 - Programmer.sch at 10/31/2020 11:50 PM
+
+Part      Value      Device     Package Description                       MF MPN             OC_FARNELL OC_NEWARK SPICEPREFIX
+ADDRLEFT             ML16       ML16    HARTING                                              unknown    unknown              
+ADDRMID              ML16       ML16    HARTING                                              unknown    unknown              
+ADDRRIGHT            ML6        ML6     HARTING                                              unknown    unknown              
+ADD_HIGH  74ABT164D  74ABT164D  SO14    8-bit parallel out SHIFT REGISTER                                                    
+ADD_LOW   74ABT164D  74ABT164D  SO14    8-bit parallel out SHIFT REGISTER                                                    
+ADD_MID   74ABT164D  74ABT164D  SO14    8-bit parallel out SHIFT REGISTER                                                    
+BANKA                ML16       ML16    HARTING                                              unknown    unknown              
+BANKB                ML16       ML16    HARTING                                              unknown    unknown              
+BANKC                ML16       ML16    HARTING                                              unknown    unknown              
+C1        1uF        C-USC1206  C1206   CAPACITOR, American symbol                                                C          
+C2        1uF        C-USC1206  C1206   CAPACITOR, American symbol                                                C          
+C3        1uF        C-USC1206  C1206   CAPACITOR, American symbol                                                C          
+C4        1uF        C-USC1206  C1206   CAPACITOR, American symbol                                                C          
+IC1       MEGA8535-A MEGA8535-A TQFP44  MICROCONTROLLER                      ATMEGA8535-16AU 1528437    01M6908              
+PRG                  ML6        ML6     HARTING                                              unknown    unknown              
+SERIAL               ML6        ML6     HARTING                                              unknown    unknown              
+UP                   ML6        ML6     HARTING                                              unknown    unknown              

@@ -164,6 +164,10 @@
 <hole x="196" y="44" drill="0.12"/>
 <hole x="4" y="44" drill="0.12"/>
 <hole x="196" y="4" drill="0.12"/>
+<hole x="4" y="44" drill="3"/>
+<hole x="4" y="4" drill="3"/>
+<hole x="196" y="4" drill="3"/>
+<hole x="196" y="44" drill="3"/>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">

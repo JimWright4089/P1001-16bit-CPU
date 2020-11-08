@@ -1,0 +1,62 @@
+Partlist exported from F:/JimsDesign/P1001-16bit-CPU/P1001-001 - 16bit CPU/P1001-002-009-320 - ALU Top/SCH1001-002-009-320 - ALU Top.sch at 10/31/2020 10:28 PM
+
+Part      Value             Device            Package           Description                            MF MPN             OC_FARNELL OC_NEWARK SPICEPREFIX
+ADD1      74ALS08D          74ALS08D          SO14              Quad 2-input AND gate                                                                     
+ADDA      74283D            74283D            SO16              4-bit binary FULL ADDER, fast carry                                                       
+ADDB      74283D            74283D            SO16              4-bit binary FULL ADDER, fast carry                                                       
+ADDC      74283D            74283D            SO16              4-bit binary FULL ADDER, fast carry                                                       
+ADDD      74283D            74283D            SO16              4-bit binary FULL ADDER, fast carry                                                       
+ADDE      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+ADDF      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+ALU1                        JP4E              JP4               JUMPER                                                                                    
+ALU2                        JP4E              JP4               JUMPER                                                                                    
+ALU3                        JP4E              JP4               JUMPER                                                                                    
+ALU4                        JP4E              JP4               JUMPER                                                                                    
+BUSOUTA   74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+BUSOUTB   74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+C1        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                     C          
+C2        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                     C          
+C3        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                     C          
+C4        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                     C          
+CARRYS1   74ALS08D          74ALS08D          SO14              Quad 2-input AND gate                                                                     
+CARRYS2   74ALS08D          74ALS08D          SO14              Quad 2-input AND gate                                                                     
+FLAGLATCH 74LS173D          74LS173D          SO16              4-bit D type REGISTER, 3-state                                                            
+FLAGS                       JP4E              JP4               JUMPER                                                                                    
+IC27      MEGA8535-A        MEGA8535-A        TQFP44            MICROCONTROLLER                           ATMEGA8535-16AU 1528437    01M6908              
+IC42      74ALS04D          74ALS04D          SO14              Hex INVERTER                                                                              
+IC55      74ALS04D          74ALS04D          SO14              Hex INVERTER                                                                              
+LED1                        LED5MM            LED5MM            LED                                                                                       
+LED2                        LED5MM            LED5MM            LED                                                                                       
+LED3                        LED5MM            LED5MM            LED                                                                                       
+LEFTBUS                     ML16              ML16              HARTING                                                   unknown    unknown              
+MUXA      74LS138D          74LS138D          SO16              3-line to 8-line DECODER/DEMULTIPLEXER                                                    
+MUXB      74LS138D          74LS138D          SO16              3-line to 8-line DECODER/DEMULTIPLEXER                                                    
+OUTS3     74LS32D           74LS32D           SO14              Quad 2-input OR gate                                                                      
+R1                          R-US_M1206        M1206             RESISTOR, American symbol                                                      R          
+R2                          R-US_M1206        M1206             RESISTOR, American symbol                                                      R          
+R6                          R-US_M1206        M1206             RESISTOR, American symbol                                                      R          
+REGA                        ML16              ML16              HARTING                                                   unknown    unknown              
+REGA1                       ML16              ML16              HARTING                                                   unknown    unknown              
+REGB                        ML16              ML16              HARTING                                                   unknown    unknown              
+RIGHTBUS                    ML16              ML16              HARTING                                                   unknown    unknown              
+RN2                         10R-NSOMC         SOMC20            DIL RESISTOR                                              unknown    unknown              
+ROLA      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+ROLB      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+RORA      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+RORB      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHLA      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHLA1     74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHLB      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHRA      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHRB      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SHRB1     74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                            
+SUB1      74LS86D           74LS86D           SO14              Quad 2-input EXCLUSIV-OR (XOR) gate                                                       
+SUB2      74LS86D           74LS86D           SO14              Quad 2-input EXCLUSIV-OR (XOR) gate                                                       
+SUB3      74LS86D           74LS86D           SO14              Quad 2-input EXCLUSIV-OR (XOR) gate                                                       
+SUB4      74LS86D           74LS86D           SO14              Quad 2-input EXCLUSIV-OR (XOR) gate                                                       
+SV5                         ML6               ML6               HARTING                                                   unknown    unknown              
+U$1       4-DIGIT-7-SEGMENT 4-DIGIT-7-SEGMENT 4-DIGIT-7-SEGMENT                                                                                           
+VCC_GND                     JP4E              JP4               JUMPER                                                                                    
+ZERO1     74ALS02D          74ALS02D          SO14              Quad 2-input NOR gate                                                                     
+ZERO2     74ALS02D          74ALS02D          SO14              Quad 2-input NOR gate                                                                     
+ZERO4     74ALS08D          74ALS08D          SO14              Quad 2-input AND gate                                                                     

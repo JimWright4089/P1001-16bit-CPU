@@ -1,0 +1,13 @@
+S8535C = [ ]
+WDTON = [ ]
+SPIEN = [X]
+EESAVE = [ ]
+BOOTSZ = 1024W_0C00
+BOOTRST = [ ]
+CKOPT = [ ]
+BODLEVEL = 2V7
+BODEN = [ ]
+SUT_CKSEL = INTRCOSC_8MHZ_6CK_64MS
+
+HIGH = 0xD9 (valid)
+LOW = 0xE4 (valid)

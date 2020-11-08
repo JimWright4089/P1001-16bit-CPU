@@ -1,0 +1,29 @@
+Partlist exported from F:/JimsDesign/P1001-16bit-CPU/P1001-001 - 16bit CPU/P1001-001-002-320 - Switching Register/BRD1001-001-002-320 - Switching Register.sch at 10/31/2020 10:03 PM
+
+Part      Value             Device            Package           Description                    MF    MPN             OC_FARNELL OC_NEWARK SPICEPREFIX
+BACKBUS                     ML16              ML16              HARTING                                              unknown    unknown              
+BOTTOMBUS                   ML16              ML16              HARTING                                              unknown    unknown              
+C3        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                C          
+C4        1uF               C-USC1206         C1206             CAPACITOR, American symbol                                                C          
+FRONTBUS                    ML16              ML16              HARTING                                              unknown    unknown              
+HIGHHIGH  74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+HIGHLOW   74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+IC1       74HC173D          74HC173D          SO16              4-bit D type REGISTER, 3-state                                                       
+IC2       74HC173D          74HC173D          SO16              4-bit D type REGISTER, 3-state                                                       
+IC3       74HC173D          74HC173D          SO16              4-bit D type REGISTER, 3-state                                                       
+IC4       74HC173D          74HC173D          SO16              4-bit D type REGISTER, 3-state                                                       
+IC5       74ALS21D          74ALS21D          SO14              Dual 4-input AND gate                                                                
+IC6       74ALS21D          74ALS21D          SO14              Dual 4-input AND gate                                                                
+IC7       74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+IC8       74ALS08D          74ALS08D          SO14              Quad 2-input AND gate                                                                
+IC10      74LS32D           74LS32D           SO14              Quad 2-input OR gate                                                                 
+IC12      74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+IC27      MEGA8535-A        MEGA8535-A        TQFP44            MICROCONTROLLER                      ATMEGA8535-16AU 1528437    01M6908              
+J1        22-27-2041-04     22-27-2041-04     6410-04           CONNECTOR                      MOLEX                 unknown    unknown              
+J3        22-27-2041-04     22-27-2041-04     6410-04           CONNECTOR                      MOLEX                 unknown    unknown              
+J4        22-27-2061-06     22-27-2061-06     6410-06           CONNECTOR                      MOLEX                 unknown    unknown              
+LOWHIGH   74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+LOWLOW    74AC245DW         74AC245DW         SO20W             Octal BUS TRANSCEIVER, 3-state                                                       
+RN2                         10R-NSOMC         SOMC20            DIL RESISTOR                                         unknown    unknown              
+SV5                         ML6               ML6               HARTING                                              unknown    unknown              
+U$1       4-DIGIT-7-SEGMENT 4-DIGIT-7-SEGMENT 4-DIGIT-7-SEGMENT                                                                                      

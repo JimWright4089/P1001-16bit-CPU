@@ -39,33 +39,33 @@ int main(void)
     0b01111111, 0b01101111, 0b01110111, 0b01111100,
     0b00111001, 0b01011110, 0b01111001, 0b01110001};
   int displayNumber = 0;
-  int dispPortA = 0;
+  int dispPortD = 0;
   int dispPortC = 0;
   int display[] = {0,0,0,0};
-  int digit[] = {0b0111,0b1011,0b1101,0b1110};
+  int digit[] = {0b1110,0b1101,0b0111,0b1011};
 
-  DDRA = 0x00;
+  DDRA = 0xFF;
   DDRB = 0xFF;
   DDRC = 0x00;
-  DDRD = 0xFF;
+  DDRD = 0x00;
   
-  PORTA = 0xFF;
   PORTC = 0xFF;
+  PORTD = 0xFF;
   
   while(1) //infinite loop
   {
-    dispPortA = PINA;
+    dispPortD = PIND;
     dispPortC = PINC;
-    displayNumber = ((dispPortA<<8)&0xFF00) + (dispPortC&0xFF);
+    displayNumber = ((dispPortD<<8)&0xFF00) + (dispPortC&0xFF);
     display[2] = displayNumber & 0x000F;
     display[3] = (displayNumber>>4) & 0x000F;
     display[1] = (displayNumber>>8) & 0x000F;
     display[0] = (displayNumber>>12) & 0x000F;
-    
+        
     for(int i=0;i<4;i++)
     {
       PORTB = digit[i];
-      PORTD = displayDigit[display[i]];
+      PORTA = displayDigit[display[i]];
       _delay_us(100);
     }
   }

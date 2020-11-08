@@ -164,6 +164,10 @@
 <hole x="196" y="44" drill="0.12"/>
 <hole x="4" y="44" drill="0.12"/>
 <hole x="196" y="4" drill="0.12"/>
+<hole x="4" y="44" drill="3"/>
+<hole x="4" y="4" drill="3"/>
+<hole x="196" y="4" drill="3"/>
+<hole x="196" y="44" drill="3"/>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">
@@ -2192,10 +2196,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="43.905" y="9.539" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="42.762" y="11.19" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="190" y="4" smashed="yes">
-<attribute name="NAME" x="188.73" y="5.27" size="1.27" layer="25"/>
-<attribute name="SPICEPREFIX" value="C" x="190" y="11" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="188.73" y="1.46" size="1.27" layer="27"/>
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="184" y="4" smashed="yes">
+<attribute name="NAME" x="182.73" y="5.27" size="1.27" layer="25"/>
+<attribute name="SPICEPREFIX" value="C" x="184" y="11" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="182.73" y="1.46" size="1.27" layer="27"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="1uF" x="13" y="44" smashed="yes">
 <attribute name="NAME" x="11.73" y="45.27" size="1.27" layer="25"/>
@@ -2249,7 +2253,7 @@ design rules under a new name.</description>
 <wire x1="129.58" y1="38.63" x2="135.38" y2="43.63" width="0" layer="19" extent="16-16"/>
 <wire x1="129.58" y1="37.83" x2="129.58" y2="38.63" width="0" layer="19" extent="16-16"/>
 <wire x1="134.58" y1="32.03" x2="129.58" y2="37.83" width="0" layer="19" extent="16-16"/>
-<wire x1="191.4" y1="4" x2="182.6" y2="37" width="0" layer="19" extent="1-1"/>
+<wire x1="185.4" y1="4" x2="182.6" y2="37" width="0" layer="19" extent="1-1"/>
 <wire x1="56.9266" y1="38.445" x2="129.58" y2="38.63" width="0" layer="19" extent="16-16"/>
 <wire x1="44.0734" y1="38.445" x2="56.9266" y2="38.445" width="0" layer="19" extent="1-16"/>
 <wire x1="56.9266" y1="19.445" x2="56.9266" y2="38.445" width="0" layer="19" extent="16-16"/>
@@ -2284,7 +2288,7 @@ design rules under a new name.</description>
 <wire x1="134.58" y1="43.63" x2="141.18" y2="38.63" width="0" layer="19" extent="16-16"/>
 <wire x1="129.58" y1="37.03" x2="134.58" y2="43.63" width="0" layer="19" extent="16-16"/>
 <wire x1="135.38" y1="32.03" x2="129.58" y2="37.03" width="0" layer="19" extent="16-16"/>
-<wire x1="188.6" y1="4" x2="185.4" y2="37" width="0" layer="19" extent="1-1"/>
+<wire x1="182.6" y1="4" x2="185.4" y2="37" width="0" layer="19" extent="1-1"/>
 <wire x1="63.0734" y1="29.555" x2="129.58" y2="37.03" width="0" layer="19" extent="16-16"/>
 <wire x1="63.0734" y1="10.555" x2="63.0734" y2="29.555" width="0" layer="19" extent="16-16"/>
 <wire x1="38.9266" y1="10.555" x2="63.0734" y2="10.555" width="0" layer="19" extent="1-16"/>

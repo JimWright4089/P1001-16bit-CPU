@@ -80,16 +80,17 @@ int main()
   DDRA = 0xFF;
   DDRC = 0xFF;
   
-  PORTA = 0x01;
+  PORTA = 0x00;
   PORTC = 0x00;
 
   USART_Init ( MYUBRR );
   while(1)
   {
     ch3 = ch2;
-    ch2 = ch1;
-    ch1 = USART_Receive();
-    USART_Transmit(ch1);
+    ch2 = 0x55;
+    ch1 = 0xCC;
+//    ch1 = USART_Receive();
+//    USART_Transmit(ch1);
     PORTC = ch1;
     //PORTA = ch2;
     //PORTA = BitReverseTable256[ch2];

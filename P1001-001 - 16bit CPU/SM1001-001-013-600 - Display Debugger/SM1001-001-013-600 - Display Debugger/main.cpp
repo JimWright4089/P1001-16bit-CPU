@@ -49,8 +49,8 @@ int main(void)
   DDRC = 0x00;
   DDRD = 0x00;
   
-  PORTC = 0xFF;
-  PORTD = 0xFF;
+//  PORTC = 0xFF;
+//  PORTD = 0xFF;
   
   while(1) //infinite loop
   {

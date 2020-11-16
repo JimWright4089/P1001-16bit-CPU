@@ -806,6 +806,7 @@ Source: http://www.sst.com/dotAsset/40687.pdf</description>
 <segment>
 <pinref part="MID" gate="B" pin="1"/>
 <wire x1="129.54" y1="45.72" x2="149.86" y2="45.72" width="0.1524" layer="91"/>
+<label x="132.08" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ADDR10" class="0">

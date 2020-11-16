@@ -13127,7 +13127,7 @@ Source: www.kingbright.com</description>
 <label x="-50.8" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
-<bus name="LOWADDR[0..15]">
+<bus name="HIGHADDR[0..15]">
 <segment>
 <wire x1="-111.76" y1="106.68" x2="-111.76" y2="-27.94" width="0.762" layer="92"/>
 <label x="-111.76" y="-27.94" size="1.778" layer="95" rot="R90"/>
@@ -13864,116 +13864,11 @@ Source: www.kingbright.com</description>
 <label x="-58.42" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LOWADDR1" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="S1"/>
-<wire x1="-91.44" y1="91.44" x2="-111.76" y2="91.44" width="0.1524" layer="91"/>
-<label x="-109.22" y="91.44" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR2" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="S2"/>
-<wire x1="-91.44" y1="93.98" x2="-111.76" y2="93.98" width="0.1524" layer="91"/>
-<label x="-109.22" y="93.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR3" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="S3"/>
-<wire x1="-91.44" y1="96.52" x2="-111.76" y2="96.52" width="0.1524" layer="91"/>
-<label x="-109.22" y="96.52" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR4" class="0">
-<segment>
-<pinref part="IC2" gate="A" pin="S4"/>
-<wire x1="-91.44" y1="99.06" x2="-111.76" y2="99.06" width="0.1524" layer="91"/>
-<label x="-109.22" y="99.06" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR8" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="S4"/>
-<wire x1="-91.44" y1="63.5" x2="-111.76" y2="63.5" width="0.1524" layer="91"/>
-<label x="-109.22" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR7" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="S3"/>
-<wire x1="-91.44" y1="60.96" x2="-111.76" y2="60.96" width="0.1524" layer="91"/>
-<label x="-109.22" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR6" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="S2"/>
-<wire x1="-91.44" y1="58.42" x2="-111.76" y2="58.42" width="0.1524" layer="91"/>
-<label x="-109.22" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR5" class="0">
-<segment>
-<pinref part="IC6" gate="A" pin="S1"/>
-<wire x1="-91.44" y1="55.88" x2="-111.76" y2="55.88" width="0.1524" layer="91"/>
-<label x="-109.22" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="!SRAM" class="0">
 <segment>
 <pinref part="IC3" gate="C" pin="O"/>
 <wire x1="35.56" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
 <label x="38.1" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR9" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="S1"/>
-<wire x1="-91.44" y1="20.32" x2="-111.76" y2="20.32" width="0.1524" layer="91"/>
-<label x="-109.22" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR10" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="S2"/>
-<wire x1="-91.44" y1="22.86" x2="-111.76" y2="22.86" width="0.1524" layer="91"/>
-<label x="-109.22" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR11" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="S3"/>
-<wire x1="-91.44" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
-<label x="-109.22" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR12" class="0">
-<segment>
-<pinref part="IC7" gate="A" pin="S4"/>
-<wire x1="-91.44" y1="27.94" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
-<label x="-109.22" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR13" class="0">
-<segment>
-<pinref part="IC8" gate="A" pin="S1"/>
-<wire x1="-91.44" y1="-15.24" x2="-111.76" y2="-15.24" width="0.1524" layer="91"/>
-<label x="-109.22" y="-15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR14" class="0">
-<segment>
-<pinref part="IC8" gate="A" pin="S2"/>
-<wire x1="-91.44" y1="-12.7" x2="-111.76" y2="-12.7" width="0.1524" layer="91"/>
-<label x="-109.22" y="-12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR15" class="0">
-<segment>
-<pinref part="IC8" gate="A" pin="S3"/>
-<wire x1="-91.44" y1="-10.16" x2="-111.76" y2="-10.16" width="0.1524" layer="91"/>
-<label x="-109.22" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!PREF" class="0">
@@ -14033,6 +13928,111 @@ Source: www.kingbright.com</description>
 <pinref part="C2" gate="G$1" pin="1"/>
 <junction x="38.1" y="86.36"/>
 <label x="43.18" y="106.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR1" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="S1"/>
+<wire x1="-91.44" y1="91.44" x2="-111.76" y2="91.44" width="0.1524" layer="91"/>
+<label x="-109.22" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR2" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="S2"/>
+<wire x1="-91.44" y1="93.98" x2="-111.76" y2="93.98" width="0.1524" layer="91"/>
+<label x="-109.22" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR3" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="S3"/>
+<wire x1="-91.44" y1="96.52" x2="-111.76" y2="96.52" width="0.1524" layer="91"/>
+<label x="-109.22" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR4" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="S4"/>
+<wire x1="-91.44" y1="99.06" x2="-111.76" y2="99.06" width="0.1524" layer="91"/>
+<label x="-109.22" y="99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR5" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="S1"/>
+<wire x1="-91.44" y1="55.88" x2="-111.76" y2="55.88" width="0.1524" layer="91"/>
+<label x="-109.22" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR6" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="S2"/>
+<wire x1="-91.44" y1="58.42" x2="-111.76" y2="58.42" width="0.1524" layer="91"/>
+<label x="-109.22" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR7" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="S3"/>
+<wire x1="-91.44" y1="60.96" x2="-111.76" y2="60.96" width="0.1524" layer="91"/>
+<label x="-109.22" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR8" class="0">
+<segment>
+<pinref part="IC6" gate="A" pin="S4"/>
+<wire x1="-91.44" y1="63.5" x2="-111.76" y2="63.5" width="0.1524" layer="91"/>
+<label x="-109.22" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR9" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="S1"/>
+<wire x1="-91.44" y1="20.32" x2="-111.76" y2="20.32" width="0.1524" layer="91"/>
+<label x="-109.22" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR10" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="S2"/>
+<wire x1="-91.44" y1="22.86" x2="-111.76" y2="22.86" width="0.1524" layer="91"/>
+<label x="-109.22" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR11" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="S3"/>
+<wire x1="-91.44" y1="25.4" x2="-111.76" y2="25.4" width="0.1524" layer="91"/>
+<label x="-109.22" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR12" class="0">
+<segment>
+<pinref part="IC7" gate="A" pin="S4"/>
+<wire x1="-91.44" y1="27.94" x2="-111.76" y2="27.94" width="0.1524" layer="91"/>
+<label x="-109.22" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR13" class="0">
+<segment>
+<pinref part="IC8" gate="A" pin="S1"/>
+<wire x1="-91.44" y1="-15.24" x2="-111.76" y2="-15.24" width="0.1524" layer="91"/>
+<label x="-109.22" y="-15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR14" class="0">
+<segment>
+<pinref part="IC8" gate="A" pin="S2"/>
+<wire x1="-91.44" y1="-12.7" x2="-111.76" y2="-12.7" width="0.1524" layer="91"/>
+<label x="-109.22" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR15" class="0">
+<segment>
+<pinref part="IC8" gate="A" pin="S3"/>
+<wire x1="-91.44" y1="-10.16" x2="-111.76" y2="-10.16" width="0.1524" layer="91"/>
+<label x="-109.22" y="-10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -14506,6 +14506,14 @@ Source: www.kingbright.com</description>
 <label x="177.8" y="-78.74" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
+<net name="ODD_ADDR" class="0">
+<segment>
+<pinref part="IC27" gate="G$1" pin="(SS)PB4"/>
+<wire x1="193.04" y1="-55.88" x2="193.04" y2="-78.74" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="-78.74" x2="238.76" y2="-78.74" width="0.1524" layer="91"/>
+<label x="200.66" y="-78.74" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -14554,7 +14562,7 @@ Source: www.kingbright.com</description>
 <label x="35.56" y="2.54" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
-<bus name="LOWADDR[0..15]">
+<bus name="HIGHADDR[0..15]">
 <segment>
 <wire x1="86.36" y1="66.04" x2="86.36" y2="-12.7" width="0.762" layer="92"/>
 <label x="88.9" y="-10.16" size="1.778" layer="95" rot="R90"/>
@@ -14706,111 +14714,6 @@ Source: www.kingbright.com</description>
 <label x="43.18" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="LOWADDR1" class="0">
-<segment>
-<pinref part="LOW" gate="1" pin="9"/>
-<wire x1="68.58" y1="5.08" x2="86.36" y2="5.08" width="0.1524" layer="91"/>
-<label x="68.58" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR3" class="0">
-<segment>
-<pinref part="LOW" gate="1" pin="11"/>
-<wire x1="68.58" y1="7.62" x2="86.36" y2="7.62" width="0.1524" layer="91"/>
-<label x="68.58" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR5" class="0">
-<segment>
-<pinref part="LOW" gate="1" pin="13"/>
-<wire x1="68.58" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
-<label x="68.58" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR7" class="0">
-<segment>
-<pinref part="LOW" gate="1" pin="15"/>
-<wire x1="68.58" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
-<label x="68.58" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR9" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="1"/>
-<wire x1="68.58" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
-<label x="68.58" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR11" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="3"/>
-<wire x1="68.58" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<label x="68.58" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR13" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="5"/>
-<wire x1="68.58" y1="25.4" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
-<label x="68.58" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR15" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="7"/>
-<wire x1="68.58" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
-<label x="68.58" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR2" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="13"/>
-<wire x1="68.58" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
-<label x="68.58" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR4" class="0">
-<segment>
-<pinref part="MID" gate="1" pin="15"/>
-<wire x1="68.58" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<label x="68.58" y="38.1" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR6" class="0">
-<segment>
-<pinref part="HIGH" gate="1" pin="1"/>
-<wire x1="68.58" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
-<label x="68.58" y="45.72" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR8" class="0">
-<segment>
-<pinref part="HIGH" gate="1" pin="3"/>
-<wire x1="68.58" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
-<label x="68.58" y="48.26" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR10" class="0">
-<segment>
-<pinref part="HIGH" gate="1" pin="5"/>
-<wire x1="68.58" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
-<label x="68.58" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR12" class="0">
-<segment>
-<pinref part="HIGH" gate="1" pin="7"/>
-<wire x1="68.58" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
-<label x="68.58" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR14" class="0">
-<segment>
-<pinref part="HIGH" gate="1" pin="9"/>
-<wire x1="68.58" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
-<label x="68.58" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="ADDR1" class="0">
 <segment>
 <pinref part="LOW" gate="1" pin="10"/>
@@ -14923,6 +14826,111 @@ Source: www.kingbright.com</description>
 <label x="71.12" y="71.12" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="HIGHADDR1" class="0">
+<segment>
+<pinref part="LOW" gate="1" pin="9"/>
+<wire x1="86.36" y1="5.08" x2="68.58" y2="5.08" width="0.1524" layer="91"/>
+<label x="68.58" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR3" class="0">
+<segment>
+<pinref part="LOW" gate="1" pin="11"/>
+<wire x1="68.58" y1="7.62" x2="86.36" y2="7.62" width="0.1524" layer="91"/>
+<label x="68.58" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR5" class="0">
+<segment>
+<pinref part="LOW" gate="1" pin="13"/>
+<wire x1="68.58" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
+<label x="68.58" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR7" class="0">
+<segment>
+<pinref part="LOW" gate="1" pin="15"/>
+<wire x1="68.58" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
+<label x="68.58" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR9" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="1"/>
+<wire x1="68.58" y1="20.32" x2="86.36" y2="20.32" width="0.1524" layer="91"/>
+<label x="68.58" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR11" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="3"/>
+<wire x1="68.58" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<label x="68.58" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR13" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="5"/>
+<wire x1="68.58" y1="25.4" x2="86.36" y2="25.4" width="0.1524" layer="91"/>
+<label x="68.58" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR15" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="7"/>
+<wire x1="68.58" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="68.58" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR2" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="13"/>
+<wire x1="68.58" y1="35.56" x2="86.36" y2="35.56" width="0.1524" layer="91"/>
+<label x="68.58" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR4" class="0">
+<segment>
+<pinref part="MID" gate="1" pin="15"/>
+<wire x1="68.58" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
+<label x="68.58" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR6" class="0">
+<segment>
+<pinref part="HIGH" gate="1" pin="1"/>
+<wire x1="68.58" y1="45.72" x2="86.36" y2="45.72" width="0.1524" layer="91"/>
+<label x="68.58" y="45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR8" class="0">
+<segment>
+<pinref part="HIGH" gate="1" pin="3"/>
+<wire x1="68.58" y1="48.26" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
+<label x="68.58" y="48.26" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR10" class="0">
+<segment>
+<pinref part="HIGH" gate="1" pin="5"/>
+<wire x1="68.58" y1="50.8" x2="86.36" y2="50.8" width="0.1524" layer="91"/>
+<label x="68.58" y="50.8" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR12" class="0">
+<segment>
+<pinref part="HIGH" gate="1" pin="7"/>
+<wire x1="68.58" y1="53.34" x2="86.36" y2="53.34" width="0.1524" layer="91"/>
+<label x="68.58" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR14" class="0">
+<segment>
+<pinref part="HIGH" gate="1" pin="9"/>
+<wire x1="68.58" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
+<label x="68.58" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -15022,14 +15030,14 @@ Source: www.kingbright.com</description>
 </bus>
 <bus name="ADDR[0..15]">
 <segment>
-<wire x1="43.18" y1="35.56" x2="43.18" y2="-7.62" width="0.762" layer="92"/>
-<label x="43.18" y="-7.62" size="1.778" layer="95" rot="R90"/>
+<wire x1="43.18" y1="88.9" x2="43.18" y2="45.72" width="0.762" layer="92"/>
+<label x="43.18" y="73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
-<bus name="LOWADDR[0..15]">
+<bus name="HIGHADDR[0..15]">
 <segment>
-<wire x1="43.18" y1="40.64" x2="43.18" y2="91.44" width="0.762" layer="92"/>
-<label x="43.18" y="43.18" size="1.778" layer="95" rot="R90"/>
+<wire x1="43.18" y1="-15.24" x2="43.18" y2="35.56" width="0.762" layer="92"/>
+<label x="43.18" y="5.08" size="1.778" layer="95" rot="R90"/>
 </segment>
 </bus>
 </busses>
@@ -15633,216 +15641,6 @@ Source: www.kingbright.com</description>
 <label x="63.5" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ADDR1" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A0"/>
-<wire x1="63.5" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
-<label x="45.72" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR2" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A1"/>
-<wire x1="63.5" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
-<label x="45.72" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR3" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A2"/>
-<wire x1="63.5" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
-<label x="45.72" y="27.94" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR4" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A3"/>
-<wire x1="63.5" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
-<label x="45.72" y="25.4" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR5" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A4"/>
-<wire x1="63.5" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<label x="45.72" y="22.86" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR6" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A5"/>
-<wire x1="63.5" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
-<label x="45.72" y="20.32" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR7" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A6"/>
-<wire x1="63.5" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<label x="45.72" y="17.78" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR8" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A7"/>
-<wire x1="63.5" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
-<label x="45.72" y="15.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR9" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A8"/>
-<wire x1="63.5" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
-<label x="45.72" y="12.7" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR10" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A9"/>
-<wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
-<label x="45.72" y="10.16" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR11" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A10"/>
-<wire x1="63.5" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
-<label x="45.72" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR12" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A11"/>
-<wire x1="63.5" y1="5.08" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
-<label x="45.72" y="5.08" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR13" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A12"/>
-<wire x1="63.5" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
-<label x="45.72" y="2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR14" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A13"/>
-<wire x1="63.5" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
-<label x="45.72" y="0" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ADDR15" class="0">
-<segment>
-<pinref part="MEM_HIGH" gate="G$1" pin="A14"/>
-<wire x1="63.5" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
-<label x="45.72" y="-2.54" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR1" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A0"/>
-<wire x1="63.5" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
-<label x="45.72" y="86.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR2" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A1"/>
-<wire x1="63.5" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
-<label x="45.72" y="83.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR3" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A2"/>
-<wire x1="63.5" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
-<label x="45.72" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR4" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A3"/>
-<wire x1="63.5" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
-<label x="45.72" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR5" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A4"/>
-<wire x1="63.5" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
-<label x="45.72" y="76.2" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR6" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A5"/>
-<wire x1="63.5" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
-<label x="45.72" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR7" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A6"/>
-<wire x1="63.5" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
-<label x="45.72" y="71.12" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR8" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A7"/>
-<wire x1="63.5" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
-<label x="45.72" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR9" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A8"/>
-<wire x1="63.5" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
-<label x="45.72" y="66.04" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR10" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A9"/>
-<wire x1="63.5" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<label x="45.72" y="63.5" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR11" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A10"/>
-<wire x1="63.5" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="45.72" y="60.96" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR12" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A11"/>
-<wire x1="63.5" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
-<label x="45.72" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR13" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A12"/>
-<wire x1="63.5" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<label x="45.72" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR14" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A13"/>
-<wire x1="63.5" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
-<label x="45.72" y="53.34" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="LOWADDR15" class="0">
-<segment>
-<pinref part="MEM_LOW" gate="G$1" pin="A14"/>
-<wire x1="63.5" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="45.72" y="50.8" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="GND" class="1">
 <segment>
 <pinref part="MEM_LOW" gate="G$1" pin="A15"/>
@@ -16111,6 +15909,216 @@ Source: www.kingbright.com</description>
 <wire x1="119.38" y1="104.14" x2="119.38" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="-45.72" x2="144.78" y2="-45.72" width="0.1524" layer="91"/>
 <label x="119.38" y="91.44" size="1.778" layer="95" rot="R90"/>
+</segment>
+</net>
+<net name="HIGHADDR1" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A0"/>
+<wire x1="63.5" y1="33.02" x2="43.18" y2="33.02" width="0.1524" layer="91"/>
+<label x="45.72" y="33.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR2" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A1"/>
+<wire x1="63.5" y1="30.48" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+<label x="45.72" y="30.48" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR3" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A2"/>
+<wire x1="63.5" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<label x="45.72" y="27.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR4" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A3"/>
+<wire x1="63.5" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
+<label x="45.72" y="25.4" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR5" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A4"/>
+<wire x1="63.5" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+<label x="45.72" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR6" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A5"/>
+<wire x1="63.5" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<label x="45.72" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR7" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A6"/>
+<wire x1="63.5" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="45.72" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR8" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A7"/>
+<wire x1="63.5" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
+<label x="45.72" y="15.24" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR9" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A8"/>
+<wire x1="63.5" y1="12.7" x2="43.18" y2="12.7" width="0.1524" layer="91"/>
+<label x="45.72" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR10" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A9"/>
+<wire x1="63.5" y1="10.16" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
+<label x="45.72" y="10.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR11" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A10"/>
+<wire x1="63.5" y1="7.62" x2="43.18" y2="7.62" width="0.1524" layer="91"/>
+<label x="45.72" y="7.62" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR12" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A11"/>
+<wire x1="63.5" y1="5.08" x2="43.18" y2="5.08" width="0.1524" layer="91"/>
+<label x="45.72" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR13" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A12"/>
+<wire x1="63.5" y1="2.54" x2="43.18" y2="2.54" width="0.1524" layer="91"/>
+<label x="45.72" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR14" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A13"/>
+<wire x1="63.5" y1="0" x2="43.18" y2="0" width="0.1524" layer="91"/>
+<label x="45.72" y="0" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="HIGHADDR15" class="0">
+<segment>
+<pinref part="MEM_HIGH" gate="G$1" pin="A14"/>
+<wire x1="63.5" y1="-2.54" x2="43.18" y2="-2.54" width="0.1524" layer="91"/>
+<label x="45.72" y="-2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR1" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A0"/>
+<wire x1="63.5" y1="86.36" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<label x="45.72" y="86.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR2" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A1"/>
+<wire x1="63.5" y1="83.82" x2="43.18" y2="83.82" width="0.1524" layer="91"/>
+<label x="45.72" y="83.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR3" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A2"/>
+<wire x1="63.5" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
+<label x="45.72" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR4" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A3"/>
+<wire x1="63.5" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
+<label x="45.72" y="78.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR5" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A4"/>
+<wire x1="63.5" y1="76.2" x2="43.18" y2="76.2" width="0.1524" layer="91"/>
+<label x="45.72" y="76.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR6" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A5"/>
+<wire x1="63.5" y1="73.66" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<label x="45.72" y="73.66" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR7" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A6"/>
+<wire x1="63.5" y1="71.12" x2="43.18" y2="71.12" width="0.1524" layer="91"/>
+<label x="45.72" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR8" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A7"/>
+<wire x1="63.5" y1="68.58" x2="43.18" y2="68.58" width="0.1524" layer="91"/>
+<label x="45.72" y="68.58" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR9" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A8"/>
+<wire x1="63.5" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
+<label x="45.72" y="66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR10" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A9"/>
+<wire x1="63.5" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
+<label x="45.72" y="63.5" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR11" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A10"/>
+<wire x1="63.5" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+<label x="45.72" y="60.96" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR12" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A11"/>
+<wire x1="63.5" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
+<label x="45.72" y="58.42" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR13" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A12"/>
+<wire x1="63.5" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="45.72" y="55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR14" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A13"/>
+<wire x1="63.5" y1="53.34" x2="43.18" y2="53.34" width="0.1524" layer="91"/>
+<label x="45.72" y="53.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ADDR15" class="0">
+<segment>
+<pinref part="MEM_LOW" gate="G$1" pin="A14"/>
+<wire x1="63.5" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="45.72" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

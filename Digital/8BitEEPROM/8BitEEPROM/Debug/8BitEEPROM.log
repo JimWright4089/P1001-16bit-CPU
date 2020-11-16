@@ -1,0 +1,4 @@
+﻿  9BitEEPROM.cpp
+C:\Users\JWRIGHT6\JimWright\JimsCode\C\8BitEEPROM\8BitEEPROM\9BitEEPROM.cpp(88,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\JWRIGHT6\JimWright\JimsCode\C\8BitEEPROM\8BitEEPROM\9BitEEPROM.cpp(103,64): warning C4244: 'argument': conversion from 'uint16_t' to 'byte', possible loss of data
+  8BitEEPROM.vcxproj -> C:\Users\JWRIGHT6\JimWright\JimsCode\C\8BitEEPROM\Debug\8BitEEPROM.exe

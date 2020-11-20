@@ -2523,8 +2523,7 @@ design rules under a new name.</description>
 <wire x1="144.25" y1="32.5" x2="147.125" y2="29.625" width="0.4572" layer="1"/>
 <wire x1="157.125" y1="32.875" x2="157.19" y2="33.0734" width="0.4572" layer="1"/>
 <wire x1="183.75" y1="39.375" x2="183.75" y2="42" width="0.4572" layer="16"/>
-<wire x1="179" y1="34.625" x2="183.5" y2="39.125" width="0.4572" layer="16"/>
-<wire x1="183.5" y1="39.125" x2="183.75" y2="39.375" width="0.4572" layer="16"/>
+<wire x1="179" y1="34.625" x2="183.75" y2="39.375" width="0.4572" layer="16"/>
 <wire x1="170.125" y1="34.625" x2="179" y2="34.625" width="0.4572" layer="16"/>
 <wire x1="169" y1="33.5" x2="170.125" y2="34.625" width="0.4572" layer="1"/>
 <wire x1="183.75" y1="42" x2="183.73" y2="42" width="0.4572" layer="16"/>
@@ -2673,11 +2672,7 @@ design rules under a new name.</description>
 <via x="43.375" y="17.625" extent="1-16" drill="0.35"/>
 <via x="45.75" y="17.625" extent="1-16" drill="0.35"/>
 <contactref element="IC51" pad="11"/>
-<wire x1="188.875" y1="33.75" x2="188.875" y2="33.125" width="0.4572" layer="1"/>
-<wire x1="183.625" y1="39" x2="188.875" y2="33.75" width="0.4572" layer="1"/>
-<wire x1="188.875" y1="33.125" x2="188.905" y2="33.0734" width="0.4572" layer="1"/>
-<wire x1="183.625" y1="39" x2="183.5" y2="39.125" width="0.4572" layer="16"/>
-<via x="183.625" y="39" extent="1-16" drill="0.35"/>
+<wire x1="191.5" y1="34.5" x2="188.905" y2="33.0734" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="VCC_GND" pad="1"/>

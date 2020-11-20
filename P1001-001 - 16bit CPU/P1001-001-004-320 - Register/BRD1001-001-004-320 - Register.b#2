@@ -164,6 +164,8 @@
 <hole x="196" y="44" drill="0.12"/>
 <hole x="4" y="44" drill="0.12"/>
 <hole x="196" y="4" drill="0.12"/>
+<text x="166" y="8" size="2.1844" layer="28" rot="MR0">P1001-001-004-320 - Register</text>
+<text x="164" y="4" size="2.1844" layer="28" rot="MR0">Copyright 2020 James Wright</text>
 </plain>
 <libraries>
 <library name="74xx-eu" urn="urn:adsk.eagle:library:85">

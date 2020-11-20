@@ -7484,6 +7484,11 @@ Source: AVX .. aphvc.pdf</description>
 <label x="38.1" y="7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="IC12" gate="A" pin="A5"/>
+<wire x1="68.58" y1="-86.36" x2="35.56" y2="-86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="-86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="BACKBUS" gate="1" pin="4"/>
 <wire x1="7.62" y1="83.82" x2="-5.08" y2="83.82" width="0.1524" layer="91"/>
 <label x="-2.54" y="83.82" size="1.778" layer="95"/>

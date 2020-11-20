@@ -13203,14 +13203,9 @@ Based on the following sources:
 <pinref part="IC51" gate="A" pin="N"/>
 <pinref part="IC51" gate="A" pin="M"/>
 <wire x1="73.66" y1="76.2" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
 <junction x="73.66" y="78.74"/>
 <label x="53.34" y="78.74" size="1.778" layer="95"/>
-<pinref part="IC51" gate="A" pin="D4"/>
-<wire x1="68.58" y1="78.74" x2="48.26" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="86.36" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<junction x="68.58" y="78.74"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>

@@ -2921,12 +2921,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="BUS3">
 <contactref element="IC3" pad="14"/>
-<contactref element="IC12" pad="6"/>
 <contactref element="BACKBUS" pad="4"/>
 <contactref element="FRONTBUS" pad="4"/>
 <wire x1="7.239" y1="31.3182" x2="21.9456" y2="31.3182" width="0.1524" layer="1"/>
 <wire x1="6.3246" y1="30.4038" x2="7.239" y2="31.3182" width="0.1524" layer="1"/>
-<wire x1="21.9456" y1="31.3182" x2="21.9708" y2="31.365" width="0.1524" layer="1"/>
 <wire x1="6.3246" y1="30.4038" x2="6.27" y2="30.35" width="0.1524" layer="1"/>
 <wire x1="36.6522" y1="15.5448" x2="40.9194" y2="15.5448" width="0.1524" layer="16"/>
 <wire x1="30.0228" y1="8.9154" x2="36.6522" y2="15.5448" width="0.1524" layer="16"/>
@@ -2959,8 +2957,8 @@ design rules under a new name.</description>
 <wire x1="22.4028" y1="31.3944" x2="24.3078" y2="33.2994" width="0.1524" layer="1"/>
 <wire x1="22.0218" y1="31.3944" x2="22.4028" y2="31.3944" width="0.1524" layer="1"/>
 <wire x1="196.215" y1="30.4038" x2="196.27" y2="30.35" width="0.1524" layer="16"/>
-<wire x1="22.0218" y1="31.3944" x2="21.9708" y2="31.365" width="0.1524" layer="1"/>
 <via x="24.3078" y="33.2994" extent="1-16" drill="0.35"/>
+<wire x1="21.9456" y1="31.3182" x2="22.0218" y2="31.3944" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="BUS8">
 <contactref element="IC1" pad="11"/>

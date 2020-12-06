@@ -7752,7 +7752,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(TOSC2)PC7"/>
 <wire x1="177.8" y1="-55.88" x2="177.8" y2="-68.58" width="0.1524" layer="91"/>
-<label x="177.8" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="177.8" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="QD"/>
@@ -7774,7 +7774,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(TOSC1)PC6"/>
 <wire x1="175.26" y1="-55.88" x2="175.26" y2="-68.58" width="0.1524" layer="91"/>
-<label x="175.26" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="175.26" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="QC"/>
@@ -7796,7 +7796,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC5"/>
 <wire x1="172.72" y1="-55.88" x2="172.72" y2="-68.58" width="0.1524" layer="91"/>
-<label x="172.72" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="172.72" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="QB"/>
@@ -7818,7 +7818,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC4"/>
 <wire x1="170.18" y1="-55.88" x2="170.18" y2="-68.58" width="0.1524" layer="91"/>
-<label x="170.18" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="170.18" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="A" pin="QA"/>
@@ -7840,7 +7840,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC3"/>
 <wire x1="167.64" y1="-55.88" x2="167.64" y2="-68.58" width="0.1524" layer="91"/>
-<label x="167.64" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="167.64" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="QD"/>
@@ -7862,7 +7862,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC2"/>
 <wire x1="165.1" y1="-55.88" x2="165.1" y2="-68.58" width="0.1524" layer="91"/>
-<label x="165.1" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="165.1" y="-73.66" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="QC"/>
@@ -7884,7 +7884,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC1(SDA)"/>
 <wire x1="162.56" y1="-55.88" x2="162.56" y2="-68.58" width="0.1524" layer="91"/>
-<label x="162.56" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="162.56" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="QB"/>
@@ -7906,7 +7906,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="PC0(SCL)"/>
 <wire x1="160.02" y1="-55.88" x2="160.02" y2="-68.58" width="0.1524" layer="91"/>
-<label x="160.02" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="160.02" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="A" pin="QA"/>
@@ -7928,7 +7928,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(OC2)PD7"/>
 <wire x1="154.94" y1="-55.88" x2="154.94" y2="-68.58" width="0.1524" layer="91"/>
-<label x="154.94" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="154.94" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="QD"/>
@@ -7950,7 +7950,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(ICP)PD6"/>
 <wire x1="152.4" y1="-55.88" x2="152.4" y2="-68.58" width="0.1524" layer="91"/>
-<label x="152.4" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="152.4" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="QC"/>
@@ -7972,7 +7972,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(OC1B)PD4"/>
 <wire x1="147.32" y1="-55.88" x2="147.32" y2="-68.58" width="0.1524" layer="91"/>
-<label x="147.32" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="147.32" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="QA"/>
@@ -8082,7 +8082,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="IC27" gate="G$1" pin="(OC1A)PD5"/>
 <wire x1="149.86" y1="-55.88" x2="149.86" y2="-68.58" width="0.1524" layer="91"/>
-<label x="149.86" y="-66.04" size="1.778" layer="95" rot="R90"/>
+<label x="149.86" y="-68.58" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="QB"/>

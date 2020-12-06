@@ -21,11 +21,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_frame  00000034  00000000  00000000  0000171c  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    000004d8  00000000  00000000  00001750  2**0
+  9 .debug_str    000004d5  00000000  00000000  00001750  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    0000010d  00000000  00000000  00001c28  2**0
+ 10 .debug_loc    0000010d  00000000  00000000  00001c25  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000010  00000000  00000000  00001d35  2**0
+ 11 .debug_ranges 00000010  00000000  00000000  00001d32  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -161,8 +161,8 @@ int main(void)
   da:	8a 95       	dec	r24
   dc:	e1 f7       	brne	.-8      	; 0xd6 <main+0x1e>
   int displayNumber = 0;
-  int dispPortD = 0;
-  int dispPortC = 0;
+  int dispLow = 0;
+  int dispHigh = 0;
   int display[] = {0,0,0,0};
   de:	fe 01       	movw	r30, r28
   e0:	71 96       	adiw	r30, 0x11	; 17
@@ -199,11 +199,11 @@ int main(void)
   
   while(1) //infinite loop
   {
-    dispPortD = PIND;
- 10e:	89 b1       	in	r24, 0x09	; 9
-    dispPortC = PINC;
- 110:	26 b1       	in	r18, 0x06	; 6
-    displayNumber = ((dispPortD<<8)&0xFF00) + (dispPortC&0xFF);
+    dispLow = PIND;
+ 10e:	29 b1       	in	r18, 0x09	; 9
+    dispHigh = PINC;
+ 110:	86 b1       	in	r24, 0x06	; 6
+    displayNumber = ((dispHigh<<8)&0xFF00) + (dispLow&0xFF);
  112:	90 e0       	ldi	r25, 0x00	; 0
  114:	98 2f       	mov	r25, r24
  116:	88 27       	eor	r24, r24

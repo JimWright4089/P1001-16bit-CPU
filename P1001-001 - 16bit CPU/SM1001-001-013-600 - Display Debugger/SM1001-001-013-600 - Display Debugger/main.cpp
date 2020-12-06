@@ -39,8 +39,8 @@ int main(void)
     0b01111111, 0b01101111, 0b01110111, 0b01111100,
     0b00111001, 0b01011110, 0b01111001, 0b01110001};
   int displayNumber = 0;
-  int dispPortD = 0;
-  int dispPortC = 0;
+  int dispLow = 0;
+  int dispHigh = 0;
   int display[] = {0,0,0,0};
   int digit[] = {0b1110,0b1101,0b0111,0b1011};
 
@@ -49,14 +49,11 @@ int main(void)
   DDRC = 0x00;
   DDRD = 0x00;
   
-//  PORTC = 0xFF;
-//  PORTD = 0xFF;
-  
   while(1) //infinite loop
   {
-    dispPortD = PIND;
-    dispPortC = PINC;
-    displayNumber = ((dispPortD<<8)&0xFF00) + (dispPortC&0xFF);
+    dispLow = PIND;
+    dispHigh = PINC;
+    displayNumber = ((dispHigh<<8)&0xFF00) + (dispLow&0xFF);
     display[2] = displayNumber & 0x000F;
     display[3] = (displayNumber>>4) & 0x000F;
     display[1] = (displayNumber>>8) & 0x000F;
